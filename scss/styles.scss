@@ -1,0 +1,43 @@
+
+$gray : #d3d3d3;
+$green : #75B975;
+
+.box {
+  background: $gray;
+  border: 3px solid black;
+  padding: 40px 80px;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    background: red;
+    color: white;
+  }
+}
+
+.jumbotron{
+  text-align: center;
+}
+
+button{
+  margin-top: 2%;
+}
+
+
+ul{
+  list-style: none;
+}
+// #hidden{
+//   display: none;
+// }
+
+body{
+  background-color: $gray;
+}
+
+.container{
+  margin-top: 10%;
+}
+
+.col-md-6{
+  text-align: center;
+}
